@@ -1,0 +1,11 @@
+ 
+ 1065  docker rmi jujupeneau/test
+ 1066  docker images
+ 1067  docker rmi jujupeneau/tarzan kamana/nodeweb
+ 1068  docker images
+ 1069  docker pull jujupeneau/tarzan
+ 1070  docker run -d --name mon-conteneur-postgres -e POSTGRES_PASSWORD=monmotdepasse -v mon-volume-postgres:/var/lib/postgresql/data postgres:13.6\n
+ 1071  docker ps
+ 1072  docker logs mon-conteneur-postgres\n
+ 1073  docker run -d --name mon-nouveau-conteneur-postgres -e POSTGRES_PASSWORD=monmotdepasse -v mon-volume-postgres:/var/lib/postgresql/data postgres:14.2\n
+ 1074  docker logs mon-nouveau-conteneur-postgres
